@@ -1,0 +1,306 @@
+:root {
+    --black: #000000;
+    --accent: #2196f3;
+    --grey: #757575;
+    --white: #ffffff;
+    --text: #212121;
+    --focus: #188ce8;
+    --memberbgc: #f5f4fa;
+    --headfoot: #2f303a;
+    --font-btn: inherit;
+  }
+  body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white);
+  }
+  ul {
+    list-style: none;
+  }
+  .nav-links .link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: var(--text);
+  }
+  .nav-links .link:hover,
+  .nav-links .link:focus {
+    color: var(--accent);
+  }
+  .nav-links .link.current {
+    color: var(--accent);
+  }
+  
+  .contacts-header a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: var(--grey);
+  }
+  .contacts-header a:hover,
+  .contacts-header a:focus {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: var(--accent);
+  }
+  .logo-head {
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--black);
+  }
+  .web-logo {
+    color: var(--accent);
+  }
+  /*hero-sec-main*/
+  .herro-sec {
+    background-color: var(--headfoot);
+  }
+  .hero-h {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  
+    color: var(--white);
+  }
+  .hero-btn {
+    font-family: var(--font-btn);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    color: var(--white);
+    background: var(--accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .hero-btn:hover {
+    background: var(--focus);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  .hero-btn:focus {
+    background: var(--focus);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  /*2sec-main*/
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset (50%);
+    margin: -1px;
+  }
+  .benefits h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--text);
+  }
+  .benefits p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--grey);
+  }
+  /*3sec-main*/
+  .our-works h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--text);
+  }
+  /*4sec-main*/
+  .team {
+    background-color: var(--memberbgc);
+  }
+  .our-team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--text);
+  }
+  .members li {
+    background-color: var(--white);
+  }
+  
+  .members h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--text);
+  }
+  .members p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--grey);
+  }
+  /*portfolio*/
+  /*buttons*/
+  .filters button {
+    font-family: var(--font-btn);
+    font-style: normal;
+    font-weight: 500;
+  
+    color: var(--text);
+    background-color: var(--memberbgc);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .filters button:hover,
+  .filters button:focus {
+    background-color: var(--accent);
+    color: var(--white);
+  }
+  /*projects*/
+  .projects h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+  
+    letter-spacing: 0.06em;
+  
+    color: var(--text);
+  }
+  .projects p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--grey);
+  }
+  /*footer*/
+  .footer {
+    background-color: var(--headfoot);
+  }
+  .logo-footer {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    /* identical to box height */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--white);
+  }
+  
+  .map {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--white);
+  }
+  .mail,
+  .phone {
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .contacts-footer a:hover,
+  .contacts-footer a:focus {
+    color: var(--focus);
+  }
+  
+  /*.map:hover,
+  .map:focus {
+    color: var(--focus);
+  }
+  .mail:hover,
+  .mail:focus {
+    color: var(--focus);
+  }
+  .phone:hover,
+  .phone:focus {
+    color: var(--focus);
+  }*/
