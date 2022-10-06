@@ -220,6 +220,10 @@ ul {
   cursor: pointer;
   border: none;
   padding: 4px;
+  padding-top: 6px;
+ padding-right: 22px;
+ padding-bottom: 6px;
+ padding-left: 22px; 
 }
 
 .filters button:hover,
